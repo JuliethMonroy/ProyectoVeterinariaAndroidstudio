@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergenciasActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="259dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imag" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="91dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="121dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/urgencias" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="377dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/emergencias" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="104dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="148dp"
+        android:backgroundTint="#F7F5F6F6"
+        app:icon="@drawable/icons8_volver_64"
+        app:iconTint="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+</androidx.constraintlayout.widget.ConstraintLayout>

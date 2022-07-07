@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPerfil">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="125dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="12dp"
+        android:text="¿Quienes Somos?"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="360dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:text="La Clínica Veterinaria Peludos Healthy happy esta dedicada  al cuidado de las mascotas,trabajamos por el bienestar de cada mascota, brindarles  la mejor atencion y ofrecerles buenos servicios con beneficios y economia. "
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="365dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="41dp"
+        android:text="Contamos con personal capacitado para atender a pacientes Consulta externa gratitua , Laboratorio Clínico, Ecografía  Rayos X, cirugía, hospitalización. Urgencias 24 Horas. Certificado de asistencia. "
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/icons8_veterinarian_male_96" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="14dp"
+        android:text="Nuestros Medicos"
+        android:textAlignment="center"
+        android:textColor="#040303"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="15dp"
+        android:text="Profesionalismo y Etica"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:text="Solidaridad y vocacion por los indefensos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/perfil" />
+
+    <Button
+        android:id="@+id/btnperfil"
+        android:layout_width="74dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F7F5F8F8"
+        app:icon="@drawable/icons8_volver_64"
+        app:iconTint="#009688"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

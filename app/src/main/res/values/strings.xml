@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Veterinaria Health Happy</string>
+    <string name="hint_identidad">Identidad</string>
+    <string name="hint_tipoUser">Tipo User</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_tipoA">Tipo Animal</string>
+    <string name="hint_raza">Raza</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="btnRegistrar">REGISTRASE</string>
+    <string name="menu_nuevo">Nuevo Usuario</string>
+    <string name="menu_login">Inicio de sesion</string>
+    <string name="title_activity_reservarcita">reservarcitaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
